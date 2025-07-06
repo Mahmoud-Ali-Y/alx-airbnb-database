@@ -1,0 +1,1 @@
+this is writing complex queries using different types of joins.
