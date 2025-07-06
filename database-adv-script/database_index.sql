@@ -13,7 +13,7 @@ CREATE INDEX idx_property_host_id ON Property(Indexedhost_id);
 CREATE INDEX idx_property_location ON Property(property_location);
 
 -- Example query to test before and after
-EXPLAIN
+EXPLAIN ANALYZE
 SELECT 
     p.property_id,
     p.property_name,

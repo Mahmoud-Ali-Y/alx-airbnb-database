@@ -9,5 +9,5 @@ ORDER BY Property.property_id;
 
 SELECT *
 FROM Booking
-FULL JOIN User ON Booking.Indexeduser_id=User.user_id
+FULL OUTER JOIN User ON Booking.Indexeduser_id=User.user_id
 ORDER BY User.user_id;
