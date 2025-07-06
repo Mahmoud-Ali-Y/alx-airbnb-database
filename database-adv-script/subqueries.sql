@@ -11,5 +11,5 @@ WHERE (
     SELECT COUNT(Indexeduser_id)
     FROM Booking
     WHERE Booking.Indexeduser_id = User.user_id
-) > 3;
+) > 4.0;
 
